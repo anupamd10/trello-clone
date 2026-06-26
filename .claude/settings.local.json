@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(/opt/homebrew/bin/npm approve-scripts *)",
+      "Bash(brew install *)",
+      "Bash(/opt/homebrew/opt/postgresql@16/bin/createdb trello_clone)",
+      "Bash(/opt/homebrew/bin/node src/index.js)",
+      "Bash(echo \"Server PID: $!\")",
+      "Read(//private/tmp/**)"
+    ]
+  }
+}
